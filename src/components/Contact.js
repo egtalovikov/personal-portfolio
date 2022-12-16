@@ -24,7 +24,7 @@ export const Contact = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    setButtonText('Sending...');
+    setButtonText('Отправка...');
     await fetch("http://localhost:5001/contact", {
         method: "POST",
         headers: {
@@ -40,7 +40,7 @@ export const Contact = () => {
       setStatus({ success: false, message: 'Что-то пошло не так, пожалуйста, попробуйте позже' });
     })
     .finally(() => {
-      setButtonText("Send");
+      setButtonText("Отправить");
     })
   }
 
