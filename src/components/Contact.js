@@ -25,7 +25,7 @@ export const Contact = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     setButtonText('Отправка...');
-    await fetch("http://localhost/.netlify/functions/send-email", {
+    await fetch("https://egtalovikov.com/.netlify/functions/send-email", {
         method: "POST",
         headers: {
             "Content-Type": "Application/json;charset=utf-8",

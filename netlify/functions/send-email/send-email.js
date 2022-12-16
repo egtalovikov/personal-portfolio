@@ -11,8 +11,8 @@ const handler = async (event) => {
   const descriptor = {
     from: `"${body.email}" <no-reply@gql-modules.com>`,
     to: "egtalovikov@gmail.com",
-    subject: `${body.name} sent you a message from gql-modules.com`,
-    text: `Name: ${body.name}
+    subject: `${body.firstName} ${body.lastName} sent you a message from gql-modules.com`,
+    text: `Name: ${body.firstName} ${body.lastName}
     Email: ${body.email}
     Phone: ${body.phone}
     Message: ${body.message}`,
