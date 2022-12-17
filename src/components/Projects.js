@@ -19,11 +19,6 @@ export const Projects = () => {
       imgUrl: projImg1,
     },
     {
-      title: "Куда я поеду",
-      description: "Разработка",
-      imgUrl: projImg2,
-    },
-    {
       title: "Путешествия по России",
       description: "Разработка",
       imgUrl: projImg3,
@@ -58,6 +53,11 @@ export const Projects = () => {
       title: 'Любимовка',
       description: "Разработка и ревью",
       imgUrl: projImg8,
+    },
+    {
+      title: "Куда я поеду",
+      description: "Разработка и ревью",
+      imgUrl: projImg2,
     },
   ]
 
